@@ -22,6 +22,7 @@ module tb_top;
 
     initial begin
 
+
         clk=0;
         rst_n=0;
         ena=1;
