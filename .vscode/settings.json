@@ -1,4 +1,38 @@
 {
   "verilog.linting.linter": "verilator",
-  "verilog.formatting.verilogHDL.formatter": "verible-verilog-format"
+  "verilog.formatting.verilogHDL.formatter": "verible-verilog-format",
+  "verilog.linting.verilator.arguments": "-Wall",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash",
+      "args": ["--rcfile", "/home/john/oss-cad-suite/environment"]
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "terminal.integrated.profiles.windows": {
+    "OSS CAD": {
+        "path": "cmd.exe",
+        "args": ["/k", "C:\\oss-cad-suite\\environment.bat"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "OSS CAD",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "python.analysis.extraPaths": ["C:\\Users\\janko\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages"]
+
 }
+
+

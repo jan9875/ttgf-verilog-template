@@ -1,0 +1,1 @@
+iverilog -o sim.vvp Program_Counter.v PCplus4Adder.v Adder.v Registers.v Control_Unit.v Imm_Gen.v ALU.v Branch_Control.v Data_Memory.v Muxes.v CPU_Core.v project.v tb_top.v

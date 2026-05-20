@@ -1,0 +1,16 @@
+read_verilog CPU_Core.v
+read_verilog Adder.v
+read_verilog ALU.v
+read_verilog Branch_Control.v
+read_verilog Control_Unit.v
+read_verilog Data_Memory.v
+read_verilog Imm_Gen.v
+read_verilog Muxes.v
+read_verilog PCplus4Adder.v
+read_verilog Program_Counter.v
+read_verilog Registers.v
+hierarchy -top CPU_Core 
+synth -top CPU_Core
+flatten
+stat
+write_verilog out.v
