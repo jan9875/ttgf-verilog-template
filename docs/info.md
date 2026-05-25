@@ -9,11 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Single-Cycle 8-bit risc spu with ESP uc as Instruction_memory 
 
 ## How to test
 
-Explain how to use your project
+placeholder
 
 ## External hardware
 
