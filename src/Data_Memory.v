@@ -15,5 +15,5 @@ module Data_Memory (
             memory[Adress[3:0]]<=WriteData;
         end
     end 
-    assign MemData_Out= (MemRead)? memory[Adress]: 8'b0;
+    assign MemData_Out= (MemRead)? memory[Adress[3:0]]: 8'b0;
 endmodule

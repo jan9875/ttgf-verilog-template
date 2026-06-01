@@ -2,6 +2,7 @@
 module Imm_Gen (input [15:0] Instruction, output reg [7:0] Imm_Out);
     
     wire[3:0] opcode=Instruction[15:12];
+    wire _unused= Instruction[11:8];
     always @(*) begin
         case (opcode)
             // LI-format load imm
