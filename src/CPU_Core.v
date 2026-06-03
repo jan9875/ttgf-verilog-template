@@ -41,7 +41,7 @@ module CPU_Core (
     wire control_Mux_out_sig, PC_enable_sig, Branch_control_top;
     wire RegWrite_wire, ALUSrc_wire, MemWrite_wire, MemRead_wire, MemToReg_wire, Is_beq_wire, Is_bne_wire, Is_blt_wire, zero_wire, less_than_wire;
 
-    wire [7:0] PC_top_wire, CPU_result_wire, PCplus4_Top, SUM_top, PC_input_wire, Imm_Gen_out_wire;
+    wire [7:0] PC_top_wire, CPU_result_wire, PCplus1_Top, SUM_top, PC_input_wire, Imm_Gen_out_wire;
     wire [7:0] Reg_data1_wire, Reg_data2_wire, ALU_Mux_top, ALU_Top, MemData_out_wire;
     
     wire [2:0] ALUOp_wire;
@@ -57,8 +57,8 @@ module CPU_Core (
                        );
 
 
-    PCplus4Adder PC_adder(.FromPC(PC_top_wire), 
-                          .NextPC(PCplus4_Top)
+    PCplus1Adder PC_adder(.FromPC(PC_top_wire), 
+                          .NextPC(PCplus1_Top)
                           );
 
 
@@ -150,7 +150,7 @@ module CPU_Core (
 
 
     Mux1 Adder_Mux( .sel1(Branch_control_top), 
-                    .A1(PCplus4_Top), 
+                    .A1(PCplus1_Top), 
                     .B1(SUM_top), 
                     .mux1_out(PC_input_wire));
 
