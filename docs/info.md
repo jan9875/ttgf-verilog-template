@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Single-Cycle 8-bit risc spu with ESP uc as Instruction_memory 
+Single-Cycle 8-bit risc spu with RP2040 uc as Instruction_memory 
 
 ## How to test
 
