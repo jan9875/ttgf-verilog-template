@@ -103,7 +103,9 @@ module CPU_Core (
                     .Imm_Out(Imm_Gen_out_wire)
                     );
 
-    ALU ALU( .A(Reg_data1_wire), 
+    assign ALU_A_top = (current_instruction[15:12] == 4'b0010) ? 8'b0 : Reg_data1_wire;
+
+    ALU ALU( .A(ALU_A_top), 
              .B(ALU_Mux_top), 
              .ALU_Op_in(ALUOp_wire), 
              .zero(zero_wire),
