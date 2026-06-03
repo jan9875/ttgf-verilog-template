@@ -42,7 +42,7 @@ module CPU_Core (
     wire RegWrite_wire, ALUSrc_wire, MemWrite_wire, MemRead_wire, MemToReg_wire, Is_beq_wire, Is_bne_wire, Is_blt_wire, zero_wire, less_than_wire;
 
     wire [7:0] PC_top_wire, CPU_result_wire, PCplus1_Top, SUM_top, PC_input_wire, Imm_Gen_out_wire;
-    wire [7:0] Reg_data1_wire, Reg_data2_wire, ALU_Mux_top, ALU_Top, MemData_out_wire;
+    wire [7:0] Reg_data1_wire, Reg_data2_wire, ALU_Mux_top, ALU_Top, MemData_out_wire, ALU_A_top;
     
     wire [2:0] ALUOp_wire;
 
