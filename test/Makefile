@@ -6,13 +6,14 @@ SIM ?= icarus
 FST ?= -fst # Use more efficient FST format
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = project.v
 
 ifneq ($(GATES),yes)
 
 # RTL simulation:
 SIM_BUILD				= sim_build/rtl
-VERILOG_SOURCES += $(wildcard $(SRC_DIR)/*.v)
+VERILOG_SOURCES += $(SRC_DIR)/Imm_Gen.v
+
+#VERILOG_SOURCES += $(wildcard $(SRC_DIR)/*.v)
 
 else
 
@@ -35,8 +36,8 @@ endif
 COMPILE_ARGS 		+= -I$(SRC_DIR)
 
 # Include the testbench sources:
-VERILOG_SOURCES += $(PWD)/tb.v
-TOPLEVEL = tb
+#VERILOG_SOURCES += $(PWD)/tb.v
+TOPLEVEL = Imm_Gen
 
 # List test modules to run, separated by commas and without the .py suffix:
 COCOTB_TEST_MODULES = test
