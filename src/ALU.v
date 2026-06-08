@@ -1,6 +1,6 @@
 //ALU 
 module ALU(
-    input [7:0] A, input [7:0] B, input [2:0] ALU_Op_in, output reg zero, output reg less_than, output reg [7:0] ALU_result 
+    input signed [7:0] A, input signed [7:0] B, input [2:0] ALU_Op_in, output reg zero, output reg less_than, output reg signed [7:0] ALU_result 
 );
     always @(*) begin
         case (ALU_Op_in)
