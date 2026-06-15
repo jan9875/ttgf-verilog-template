@@ -48,17 +48,14 @@ module ALU(
             
             default: begin
                 ALU_result=8'b0;
-                zero=0;
+                
                 less_than=0;
             end
 
         endcase
 
-        assign zero= (ALU_result==8'b0) ? 1: 0;
-
-
-
+        
     end
-
+    assign zero= (ALU_result==8'b0) ? 1: 0;
     
 endmodule

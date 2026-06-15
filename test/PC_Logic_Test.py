@@ -10,7 +10,7 @@ imm_gen_values=[0x00, 0x01, 0xFF]
 special_opcode=0b1111
 
 @cocotb.test()
-async def PC_Subsystem_Test_Reset_And_Non_Branch(dut):
+async def PC_Logic_Test_Reset_And_Non_Branch(dut):
     #test reset
     logger=logging.getLogger("cocotb")
     logger.info("Starting PC Subsystem Test Reset")
@@ -73,7 +73,7 @@ async def PC_Subsystem_Test_Reset_And_Non_Branch(dut):
 
 
 @cocotb.test()
-async def PC_Subsystem_Test_Branch_BEQ(dut):
+async def PC_Logic_Test_Branch_BEQ(dut):
     c=Clock(dut.clk, 10, "ns")
     cocotb.start_soon(c.start())
     logger=logging.getLogger("cocotb")

@@ -20,7 +20,7 @@ async def Reg_Test_Reset(dut):
     dut.rst.value=1
     await Timer(1, unit="ns")
     for i in range(8):
-        assert dut.Regs[i].value==regs.get(i), f"Failed for reg {i:03b}. Expected value to be {regs.get(i)}, but got {dut.Regs[i].value}"
+        assert dut.Regs[i].value==0, f"Failed for reg {i:03b}. Expected value to be 0, but got {dut.Regs[i].value}"
     dut.rst.value=0
 
 
@@ -30,8 +30,9 @@ async def Reg_Test_Reset(dut):
 async def Reg_Test_Register_Values(dut):
     logger=logging.getLogger("cocotb")
     logger.info("Starting Reg Test")
-    #regs predetermined values
-    
+    #regs set predetermined values
+    for key, val in regs.items():
+        dut.Regs.__getitem__(key).value=val
 
     for reg1 in regs:
         for reg2 in regs:

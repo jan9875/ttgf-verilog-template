@@ -21,7 +21,6 @@ module Control_Unit (
     //localparam OP_BEQ = 4'b1101;
     //localparam OP_BNE = 4'b1110;
     localparam NOP = 4'b1111;
-    //ALUOP [00 za L/S], [01 za BRANCH], [10 za r-type - gledaj funct3]
     
     always @(*) begin
 
@@ -121,8 +120,8 @@ module Control_Unit (
             OP_BEQ, OP_BNE, OP_BLT : begin
                 PC_enable_sig=1;
                 Control_Mux_out_sig=1;
-                ALUSrc=1;
-                MemToReg=1;
+                ALUSrc=0;
+                MemToReg=0;
                 RegWrite=0;
                 MemRead=0;
                 MemWrite=0;
@@ -135,9 +134,9 @@ module Control_Unit (
             end  
 
             //NOP
-            NOP : {PC_enable_sig, Control_Mux_out_sig, ALUSrc, MemToReg, RegWrite, MemRead, MemWrite, is_BEQ, is_BNE, is_BLT, ALUOp} = 13'b00_000_000_0_000_0;
+            NOP : {PC_enable_sig, Control_Mux_out_sig, ALUSrc, MemToReg, RegWrite, MemRead, MemWrite, is_BEQ, is_BNE, is_BLT, ALUOp} = 13'b00_100_000_0_000_0;
 
-            default: {PC_enable_sig, Control_Mux_out_sig, ALUSrc, MemToReg, RegWrite, MemRead, MemWrite, is_BEQ, is_BNE, is_BLT, ALUOp} = 13'b00_000_000_0_000_0;
+            default: {PC_enable_sig, Control_Mux_out_sig, ALUSrc, MemToReg, RegWrite, MemRead, MemWrite, is_BEQ, is_BNE, is_BLT, ALUOp} = 13'b00_100_000_0_000_0;
         endcase
     end
 
