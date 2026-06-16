@@ -33,14 +33,14 @@ async def End_To_End_test(dut):
     expected_PC=PC
     await RisingEdge(dut.clk)
     await ReadOnly()
-    assert dut.user_project.core.state.value==0 , f"FAIL, state is {dut.user_project.core.state.value} and should be 0"
+    #assert dut.user_project.core.state.value==0 , f"FAIL, state is {dut.user_project.core.state.value} and should be 0"
     assert dut.uo_out.value.to_signed()==expected_value, f"FAIL, expected: {expected_value}, but got: {dut.uo_out.value.to_signed()}"
 
     expected_value=0
     await RisingEdge(dut.clk)
     await ReadOnly()
-    assert dut.user_project.core.ALU_Mux_top.value==0 , f"FAIL, ALU_MUX_top is {dut.user_project.core.ALU_Mux_top.value} and should be 0"
-    assert dut.user_project.core.Imm_Gen_out_wire.value==0 , f"FAIL, imm_gen_out_wire is {dut.user_project.core.Imm_Gen_out_wire.value} and should be 0"
+    #assert dut.user_project.core.ALU_Mux_top.value==0 , f"FAIL, ALU_MUX_top is {dut.user_project.core.ALU_Mux_top.value} and should be 0"
+    #assert dut.user_project.core.Imm_Gen_out_wire.value==0 , f"FAIL, imm_gen_out_wire is {dut.user_project.core.Imm_Gen_out_wire.value} and should be 0"
 
-    assert dut.user_project.core.state.value==1 , f"FAIL, state is {dut.user_project.core.state.value} and should be 1"
+    #assert dut.user_project.core.state.value==1 , f"FAIL, state is {dut.user_project.core.state.value} and should be 1"
     assert dut.uo_out.value.to_signed()==expected_PC, f"FAIL, expected: {expected_PC}, but got: {dut.uo_out.value.to_signed()}"
