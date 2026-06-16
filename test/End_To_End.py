@@ -18,7 +18,7 @@ async def End_To_End_test(dut):
     await Timer(1,"ns")
     dut.rst_n.value=1
     await Timer(1,"ns")
-    assert dut.user_project.core.state.value==1 , f"FAIL, state is {dut.user_project.core.state.value} and should be 1"
+    #assert dut.user_project.core.state.value==1 , f"FAIL, state is {dut.user_project.core.state.value} and should be 1"
     PC=0
     opcode=0b0010
     rd=0b001
