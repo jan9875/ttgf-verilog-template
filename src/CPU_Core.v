@@ -105,7 +105,7 @@ module CPU_Core (
                     .Imm_Out(Imm_Gen_out_wire)
                     );
 
-    assign ALU_A_top = (current_instruction[15:12] == 4'b0010) ? 8'b0 : Reg_data1_wire;
+    assign ALU_A_top = (current_instruction[15:12] == 4'b0010 || current_instruction[15:12] == 4'b1111) ? 8'b0 : Reg_data1_wire;
 
     ALU ALU( .A(ALU_A_top), 
              .B(ALU_Mux_top), 
@@ -126,7 +126,7 @@ module CPU_Core (
 
     Data_Memory data_memory(.clk(clk), 
                             .rst(rst), 
-                            .Adress(ALU_Top), 
+                            .Address(ALU_Top), 
                             .PC_enable_sig(PC_enable_sig),
                             .MemWrite(MemWrite_wire), 
                             .MemRead(MemRead_wire), 

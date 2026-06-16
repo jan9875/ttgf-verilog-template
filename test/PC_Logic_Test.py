@@ -1,3 +1,8 @@
+#This test works on source files: Program_Counter.v, Control_Unit.v, PCplus1Adder.v, Adder.v, Branch_Control.v
+#and 1 Muxes.v instance
+#Those files need to be added to VERILOG_SOURCES in makefile
+#TOPLEVEL is PC_Logic_Wrapper.v
+
 import cocotb, logging
 from cocotb.triggers import Timer, RisingEdge, ReadOnly
 from cocotb.clock import Clock

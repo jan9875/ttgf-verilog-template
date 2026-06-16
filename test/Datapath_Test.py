@@ -1,5 +1,7 @@
-#This test works on soruce files: Registers.v, ALU.v, Control_Unit.v, Imm_Gen.v, Data_Memory.v, Branch_Control.v
+#This test works on source files: Registers.v, ALU.v, Control_Unit.v, Imm_Gen.v, Data_Memory.v, Branch_Control.v
 #and 2 Muxes.v instances
+#Those files need to be added to VERILOG_SOURCES in makefile
+#TOPLEVEL is Datapath_Wrapper.v
 
 
 import cocotb, logging, operator, random
