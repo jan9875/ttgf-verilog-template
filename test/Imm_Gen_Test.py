@@ -13,7 +13,7 @@ def get_expected_imm(instruction):
     
 
     elif opcode in [0b0001, 0b0011, 0b1000,
-                     0b1001, 0b1010, 0b1011, 0b1100,
+                     0b1001, 0b1010, 0b1011, 0b1100
                     ]:
         #return bottom 6 bits sign extended to 8 bits
         imm6=instruction & 0x3F

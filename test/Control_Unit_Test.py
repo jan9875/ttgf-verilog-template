@@ -17,16 +17,16 @@ async def Control_Unit_test(dut):
         0b111: 0b000, #default
     }
 
-    expected_PC_enable_sig=1;
-    expected_Control_Mux_out_sig=1;
-    expected_ALUSrc=0;
-    expected_MemToReg=0;
-    expected_RegWrite=1;
-    expected_MemRead=0;
-    expected_MemWrite=0;
-    expected_is_BEQ=0;
-    expected_is_BNE=0;
-    expected_is_BLT=0;
+    expected_PC_enable_sig=1
+    expected_Control_Mux_out_sig=1
+    expected_ALUSrc=0
+    expected_MemToReg=0
+    expected_RegWrite=1
+    expected_MemRead=0
+    expected_MemWrite=0
+    expected_is_BEQ=0
+    expected_is_BNE=0
+    expected_is_BLT=0
     
     for funct3, expected_ALUOp in expected_R_type.items():
         dut.Instruction.value=0b0000

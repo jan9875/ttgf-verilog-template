@@ -7,8 +7,6 @@ regs={0b000: 1, 0b001: 4,
         0b100: 0, 0b101: 4, 
         0b110: 2, 0b111: 24}
 
-
-
 @cocotb.test()
 async def Reg_Test_Reset(dut):
     #pre-reset values
@@ -22,8 +20,6 @@ async def Reg_Test_Reset(dut):
     for i in range(8):
         assert dut.Regs[i].value==0, f"Failed for reg {i:03b}. Expected value to be 0, but got {dut.Regs[i].value}"
     dut.rst.value=0
-
-
 
 #test reg values rs1 rs2
 @cocotb.test()
@@ -41,7 +37,6 @@ async def Reg_Test_Register_Values(dut):
             await Timer(1, unit="ns")
             assert dut.reg_data_1.value==regs.get(reg1), f"Failed for rs1={reg1:03b}. Expected value to be {regs.get(reg1)}, but got {dut.reg_data_1.value}"
             assert dut.reg_data_2.value==regs.get(reg2), f"Failed for rs2={reg2:03b}. Expected value to be {regs.get(reg2)}, but got {dut.reg_data_2.value}"
-    
     
 #test reg write
 @cocotb.test()
