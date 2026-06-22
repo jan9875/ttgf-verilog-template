@@ -10,9 +10,9 @@ regs={0b000: 1, 0b001: 4,
 @cocotb.test()
 async def Reg_Test_Reset(dut):
     #pre-reset values
-    await Timer(1, unit="ns")
-    for i in range(8):
-        assert dut.Regs[i].value==LogicArray("XXXXXXXX"), f"Failed for reg {i:03b}. Expected value to be 0, but got {dut.Regs[i].value}"
+    #await Timer(1, unit="ns")
+    #for i in range(8):
+    #    assert dut.Regs[i].value==LogicArray("XXXXXXXX"), f"Failed for reg {i:03b}. Expected value to be 0, but got {dut.Regs[i].value}"
 
 	#post-reset values
     dut.rst.value=1

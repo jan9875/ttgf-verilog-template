@@ -2,7 +2,7 @@
 # See https://docs.cocotb.org/en/stable/quickstart.html for more info
 
 # defaults
-SIM ?= icarus
+SIM ?= verilator
 FST ?= -fst # Use more efficient FST format
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
@@ -18,14 +18,14 @@ SIM_BUILD				= sim_build/rtl
 
 
 #VERILOG_SOURCES += $(SRC_DIR)/Registers.v
-VERILOG_SOURCES += $(SRC_DIR)/ALU.v
+#VERILOG_SOURCES += $(SRC_DIR)/ALU.v
 #VERILOG_SOURCES += $(SRC_DIR)/Imm_Gen.v
 #VERILOG_SOURCES += $(SRC_DIR)/Muxes.v
 #VERILOG_SOURCES += $(SRC_DIR)/Data_Memory.v
 #VERILOG_SOURCES += $(SRC_DIR)/Control_Unit.v
 #VERILOG_SOURCES += $(SRC_DIR)/Branch_Control.v
 
-#VERILOG_SOURCES += $(wildcard $(SRC_DIR)/*.v)
+VERILOG_SOURCES += $(wildcard $(SRC_DIR)/*.v)
 
 else
 
@@ -48,12 +48,12 @@ endif
 COMPILE_ARGS 		+= -I$(SRC_DIR)
 
 # Include the testbench sources:
-#VERILOG_SOURCES += $(PWD)/Datapath_Wrapper.v
-TOPLEVEL = ALU
+VERILOG_SOURCES += $(PWD)/tb.v
+TOPLEVEL = tb
 
 # List test modules to run, separated by commas and without the .py suffix:
-COCOTB_TEST_MODULES = ALU_Test
+COCOTB_TEST_MODULES = End_To_End
 
-#EXTRA_ARGS += --coverage
+EXTRA_ARGS += --coverage
 # include cocotb's make rules to take care of the simulator setup
 include $(shell cocotb-config --makefiles)/Makefile.sim

@@ -1,0 +1,68 @@
+# SystemC::Coverage-3
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl11n74tlinepagev_line/Imm_GenocaseS11hImm_Gen' 70
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl13n47tlinepagev_line/Imm_GenocaseS13hImm_Gen' 40
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl14n13tlinepagev_line/Imm_GenocaseS14hImm_Gen' 2
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[0]:0->1hImm_Gen' 24
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[0]:1->0hImm_Gen' 23
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[10]:0->1hImm_Gen' 8
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[10]:1->0hImm_Gen' 8
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[11]:0->1hImm_Gen' 4
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[11]:1->0hImm_Gen' 4
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[12]:0->1hImm_Gen' 5
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[12]:1->0hImm_Gen' 5
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[13]:0->1hImm_Gen' 3
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[13]:1->0hImm_Gen' 2
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[14]:0->1hImm_Gen' 1
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[14]:1->0hImm_Gen' 1
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[15]:0->1hImm_Gen' 1
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[15]:1->0hImm_Gen' 1
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[1]:0->1hImm_Gen' 24
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[1]:1->0hImm_Gen' 23
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[2]:0->1hImm_Gen' 24
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[2]:1->0hImm_Gen' 23
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[3]:0->1hImm_Gen' 16
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[3]:1->0hImm_Gen' 15
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[4]:0->1hImm_Gen' 16
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[4]:1->0hImm_Gen' 15
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[5]:0->1hImm_Gen' 9
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[5]:1->0hImm_Gen' 8
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[6]:0->1hImm_Gen' 2
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[6]:1->0hImm_Gen' 1
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[7]:0->1hImm_Gen' 1
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[7]:1->0hImm_Gen' 0
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[8]:0->1hImm_Gen' 0
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[8]:1->0hImm_Gen' 0
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[9]:0->1hImm_Gen' 8
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n30ttogglepagev_toggle/Imm_GenoInstruction[9]:1->0hImm_Gen' 8
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n67ttogglepagev_toggle/Imm_GenoImm_Out[0]:0->1hImm_Gen' 24
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n67ttogglepagev_toggle/Imm_GenoImm_Out[0]:1->0hImm_Gen' 23
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n67ttogglepagev_toggle/Imm_GenoImm_Out[1]:0->1hImm_Gen' 24
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n67ttogglepagev_toggle/Imm_GenoImm_Out[1]:1->0hImm_Gen' 23
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n67ttogglepagev_toggle/Imm_GenoImm_Out[2]:0->1hImm_Gen' 24
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n67ttogglepagev_toggle/Imm_GenoImm_Out[2]:1->0hImm_Gen' 23
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n67ttogglepagev_toggle/Imm_GenoImm_Out[3]:0->1hImm_Gen' 24
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n67ttogglepagev_toggle/Imm_GenoImm_Out[3]:1->0hImm_Gen' 23
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n67ttogglepagev_toggle/Imm_GenoImm_Out[4]:0->1hImm_Gen' 24
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n67ttogglepagev_toggle/Imm_GenoImm_Out[4]:1->0hImm_Gen' 23
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n67ttogglepagev_toggle/Imm_GenoImm_Out[5]:0->1hImm_Gen' 13
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n67ttogglepagev_toggle/Imm_GenoImm_Out[5]:1->0hImm_Gen' 12
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n67ttogglepagev_toggle/Imm_GenoImm_Out[6]:0->1hImm_Gen' 13
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n67ttogglepagev_toggle/Imm_GenoImm_Out[6]:1->0hImm_Gen' 12
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n67ttogglepagev_toggle/Imm_GenoImm_Out[7]:0->1hImm_Gen' 12
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl2n67ttogglepagev_toggle/Imm_GenoImm_Out[7]:1->0hImm_Gen' 11
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl4n15ttogglepagev_toggle/Imm_Genoopcode[0]:0->1hImm_Gen' 5
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl4n15ttogglepagev_toggle/Imm_Genoopcode[0]:1->0hImm_Gen' 5
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl4n15ttogglepagev_toggle/Imm_Genoopcode[1]:0->1hImm_Gen' 3
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl4n15ttogglepagev_toggle/Imm_Genoopcode[1]:1->0hImm_Gen' 2
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl4n15ttogglepagev_toggle/Imm_Genoopcode[2]:0->1hImm_Gen' 1
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl4n15ttogglepagev_toggle/Imm_Genoopcode[2]:1->0hImm_Gen' 1
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl4n15ttogglepagev_toggle/Imm_Genoopcode[3]:0->1hImm_Gen' 1
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl4n15ttogglepagev_toggle/Imm_Genoopcode[3]:1->0hImm_Gen' 1
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl5n19texprpagev_expr/Imm_Geno({32'h1{{Instruction[11:8], 1'h0}}}[0]==0) => 0hImm_Gen' 121
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl5n19texprpagev_expr/Imm_Geno({32'h1{{Instruction[11:8], 1'h0}}}[0]==1 && {32'h1{{Instruction[11:8], 1'h0}}}[1]==1 && {32'h1{{Instruction[11:8], 1'h0}}}[2]==1 && {32'h1{{Instruction[11:8], 1'h0}}}[3]==1 && {32'h1{{Instruction[11:8], 1'h0}}}[4]==1) => 1hImm_Gen' 0
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl5n19texprpagev_expr/Imm_Geno({32'h1{{Instruction[11:8], 1'h0}}}[1]==0) => 0hImm_Gen' 121
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl5n19texprpagev_expr/Imm_Geno({32'h1{{Instruction[11:8], 1'h0}}}[2]==0) => 0hImm_Gen' 105
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl5n19texprpagev_expr/Imm_Geno({32'h1{{Instruction[11:8], 1'h0}}}[3]==0) => 0hImm_Gen' 105
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl5n19texprpagev_expr/Imm_Geno({32'h1{{Instruction[11:8], 1'h0}}}[4]==0) => 0hImm_Gen' 105
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl6n5tlinepagev_line/Imm_GenoblockS6-7hImm_Gen' 121
+C 'f/home/john/Desktop/ttgf-verilog-template/test/../src/Imm_Gen.vl9n20tlinepagev_line/Imm_GenocaseS9hImm_Gen' 9

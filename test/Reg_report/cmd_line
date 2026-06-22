@@ -1,0 +1,1 @@
+genhtml coverage_Reg.info --output-directory Reg_report

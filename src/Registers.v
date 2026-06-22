@@ -8,11 +8,11 @@ module Registers (
     always @(posedge rst or posedge clk)
     begin
         if(rst) begin
-            /*
-            for(k=0;k<31;k=k+1) begin
-                Registers[k]<=32'b0;
-            end*/
-            Regs[0]<=0;
+            integer k;
+            for(k=0;k<8;k=k+1) begin
+                Regs[k]<=8'b0;
+            end
+            /*Regs[0]<=0;
             Regs[1]<=0;
             Regs[2]<=0;
             Regs[3]<=0;
@@ -20,7 +20,7 @@ module Registers (
             Regs[5]<=0;
             Regs[6]<=0;
             Regs[7]<=0;
-            
+            */
         end
 
         else if(RegWrite) begin
