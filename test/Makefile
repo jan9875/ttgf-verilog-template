@@ -54,6 +54,6 @@ TOPLEVEL = tb
 # List test modules to run, separated by commas and without the .py suffix:
 COCOTB_TEST_MODULES = End_To_End
 
-EXTRA_ARGS += --coverage
+#EXTRA_ARGS += --coverage
 # include cocotb's make rules to take care of the simulator setup
 include $(shell cocotb-config --makefiles)/Makefile.sim
